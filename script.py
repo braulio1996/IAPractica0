@@ -204,6 +204,7 @@ for linea in lineas:
     if y < 40:
         documento.showPage()
         documento.setFont("Helvetica", 15)
+        documento.drawString(x,20,'Github =====: https://github.com/braulio1996/IAPractica0')
         y = 770
     documento.drawString(x,y,linea[0:len(linea)-1])
 documento.save()
